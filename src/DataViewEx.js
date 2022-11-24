@@ -2,7 +2,7 @@
  * @author takahiro / https://github.com/takahirox
  */
 
-import { CharsetEncoder } from './CharsetEncoder';
+import { CharsetEncoder } from './CharsetEncoder.js';
 
 function DataViewEx ( buffer, littleEndian ) {
 

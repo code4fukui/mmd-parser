@@ -2,8 +2,8 @@
  * @author takahiro / https://github.com/takahirox
  */
 
-import { DataViewEx } from './DataViewEx';
-import { DataCreationHelper } from './DataCreationHelper';
+import { DataViewEx } from './DataViewEx.js';
+import { DataCreationHelper } from './DataCreationHelper.js';
 
 function Parser() {
 };

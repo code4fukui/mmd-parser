@@ -5,6 +5,17 @@ mmd-parser parses MMD ArrayBuffer/Strings and generates Object.
 
 ## Browser
 
+### How to use (ESmodules)
+
+```
+import { MMDParser } from "https://code4fukui.github.io/mmd-parser/index.js";
+const parser = new MMDParser.Parser();
+const pmdUrl = 'https://cdn.rawgit.com/mrdoob/three.js/dev/examples/models/mmd/miku/miku_v2.pmd';
+const buffer = await (await fetch(pmdUrl)).arrayBuffer();
+const pmd = parser.parsePmd(buffer);
+console.log(pmd.metadata);
+```
+
 ### How to use
 ```
 <script src="./build/mmdparser.js"></script>
